@@ -1,5 +1,9 @@
-def hello_world():
-  print("Hello, world!")
+import random
+
+def custom_greeting():
+    greetings = ["Hello, world!", "Greetings, Earthlings!", "Hey there, universe!", "Hi, everyone!"]
+    return random.choice(greetings)
 
 if __name__ == "__main__":
-  hello_world()
+    print(custom_greeting())
+
